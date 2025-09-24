@@ -63,7 +63,7 @@ export default function Services() {
           >
             Car Protection Excellence
           </motion.h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -84,7 +84,37 @@ export default function Services() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-3">Precision Detail Work</h3>
-                  <p className="text-gray-300">Experience the difference of professional-grade paint protection that enhances your vehicle'natural beauty while providing long-lasting protection.
+                  <p className="text-gray-300">
+                    Experience the difference of professional-grade paint protection that enhances your vehicle'natural
+                    beauty while providing long-lasting protection.
+                  </p>
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="group"
+            >
+              <Card className="bg-gray-800 border-gray-700 overflow-hidden h-full">
+                <div className="relative h-80 md:h-96">
+                  <Image
+                    src="/images/services/luxury-detailing.jpg"
+                    alt="Luxury vehicle detailing showcasing deep blue metallic finish and professional surface treatment"
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    priority
+                    quality={100}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">Luxury Vehicle Detailing</h3>
+                  <p className="text-gray-300">
+                    Experience the pinnacle of automotive craftsmanship with our luxury vehicle detailing services.
+                    Specializing in premium finishes and high-end surface treatments.
                   </p>
                 </CardContent>
               </Card>
