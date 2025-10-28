@@ -149,6 +149,117 @@ export default function Services() {
               </Card>
             </motion.div>
           </div>
+
+          <motion.div
+            className="mt-16 space-y-6 max-w-7xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
+            <h3 className="text-2xl font-bold text-center mb-8">Our Work Gallery</h3>
+
+            {/* Row 1 - 3 images */}
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.32_86e2a74e-2BqeW9mY555m9Yr8zpqU5PiSPbBySm.jpg"
+                  alt="White car front view with professional wrap application"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.30_50ffedba-iboq3OxvEYpf1e41p6AsC1rsojdhEW.jpg"
+                  alt="Car in workshop with hood open showing detail work"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.30_e452fbdf-BGbpUe9zAifkMoAZKKWoi6HF82Rn2Q.jpg"
+                  alt="White VW car in professional workshop"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                />
+              </div>
+            </div>
+
+            {/* Row 2 - 3 images */}
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.31_efbe2f6f-Kyy1Wr4qGbPnVLhS35iFtI388zptHj.jpg"
+                  alt="Close-up of PPF application with water droplets"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.31_1100c4f6-V2nuP0nHSCGIwAYmalDibKlzGR88A5.jpg"
+                  alt="PPF application on black car hood with professional tools"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.31_0ed76512-n4GevgH08HBYrG3i6Wsh6PfutpgRjB.jpg"
+                  alt="Blue car with PPF being applied showing professional finish"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                />
+              </div>
+            </div>
+
+            {/* Row 3 - 4 images */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.30_8d271376-pHd2vRHHyfIUrrNBoafVL9zGD6bdum.jpg"
+                  alt="White VW Golf at shop entrance with professional signage"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.31_acde8b44-f0wCjuvFSlwh3DWU6JLKoMSPFsE7Bf.jpg"
+                  alt="White car with PPF application and professional tools"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.32_ea44c171-EucxITiNmnUwdfYMFBhRNMZecJlZ6d.jpg"
+                  alt="Close-up of car door with professional PPF application"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px"
+                />
+              </div>
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-28%20at%2021.54.31_475e0e07-4ui48bsHU4u74LY9wumWhn8kDa7jcQ.jpg"
+                  alt="White Peugeot SUV at professional shop entrance"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px"
+                />
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
     </div>
